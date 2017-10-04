@@ -1,10 +1,10 @@
 '''
 written in python 2.7 by tim villabona timv@alum.mit.edu
-
-put an adminShelter login and password below, within the single quotes:
+writes a PDF of formatted animal information, photo, and biographies - see example PDF in KennelCards directory
+needs wkhtmltopdf.exe and a few supporting DLLs and images included in KennelCards directory
 '''	
 ##############################################
-login = 'tvillabona'
+login = 'tvillabona'#ishelter login
 password = 'rockstar1'
 #define a biography in case there isn't one in the ishelters database
 defaultbio = r"I just arrived here at Adopt & Shop, so I'm still adjusting to my new living situation. The staff & volunteers have not had a chance to get to know me yet, but please ask for more information if you are interested in making me a part of your family!"
